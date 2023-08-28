@@ -1,5 +1,5 @@
 {
-  "name": "@artsy/palette-mobile",
+  "name": "@kevinnhansenn/palette-mobile",
   "version": "13.0.0",
   "description": "Artsy's design system for React Native",
   "scripts": {
@@ -135,8 +135,8 @@
   "publishConfig": {
     "access": "public"
   },
-  "repository": "artsy/palette-mobile",
-  "author": "Pavlos Vinieratos <pvinis@gmail.com>",
+  "repository": "kevinnhansenn/palette-mobile",
+  "author": "Kevin Hansen <kevinhansen36@gmail.com>",
   "license": "MIT",
   "lint-staged": {
     "*.@(md)": [

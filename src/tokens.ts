@@ -70,10 +70,10 @@ const v3: ThemeType = {
   colors: COLOR_LAYER_NAME,
   fonts: {
     sans: {
-      regular: "Unica77LL-Regular",
-      italic: "Unica77LL-Italic",
-      medium: "Unica77LL-Medium",
-      mediumItalic: "Unica77LL-MediumItalic",
+      regular: "", // Use system font - before: Unica77LL
+      italic: "",
+      medium: "",
+      mediumItalic: "",
     },
   },
   textTreatments: convertWebTextTreatmentsToMobile(textVariants),

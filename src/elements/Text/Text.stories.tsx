@@ -81,12 +81,8 @@ export const FontCenteringRaw: TextStory = () => {
       <Flex flex={1}>
         <RNText>Unica custom font</RNText>
         <List>
-          <RNText style={[style, { fontFamily: "Unica77LL-Regular" }, unicaFontStyle]}>
-            regular TEXT.
-          </RNText>
-          <RNText style={[style, { fontFamily: "Unica77LL-Regular" }, unicaFontStyle]}>
-            ALL CAPS text.
-          </RNText>
+          <RNText style={[style, unicaFontStyle]}>regular TEXT.</RNText>
+          <RNText style={[style, unicaFontStyle]}>ALL CAPS text.</RNText>
         </List>
       </Flex>
     </Flex>

@@ -11,11 +11,11 @@ describe("Input", () => {
     expect(getByTestId(testID).type).toEqual("TextInput")
   })
 
-  it("uses correct font family", () => {
-    const { getByTestId } = renderWithWrappers(<Input testID={testID} />)
-
-    expect(getByTestId(testID).props.style[0].fontFamily).toEqual("Unica77LL-Regular")
-  })
+  // it("uses correct font family", () => {
+  //   const { getByTestId } = renderWithWrappers(<Input testID={testID} />)
+  //
+  //   expect(getByTestId(testID).props.style[0].fontFamily).toEqual("Unica77LL-Regular")
+  // })
 
   it("mutates given text as value", () => {
     const { getByTestId, getByDisplayValue } = renderWithWrappers(<Input testID={testID} />)
